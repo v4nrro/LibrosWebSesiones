@@ -22,7 +22,7 @@ const usuarios = [
 ];
 
 // Conectar con BD en Mongo 
-mongoose.connect('mongodb://127.0.0.1:27017/libros');
+mongoose.connect('mongodb://mymongodb:27017/libros');
 
 // Inicializar Express
 let app = express();
